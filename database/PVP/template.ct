@@ -1,0 +1,1323 @@
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2000020389</ID>
+      <Description>"B ====PVP===="</Description>
+      <Options moHideChildren="1" />
+      <Color>800000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2000020390</ID>
+          <Description>"Teleport Random Player"</Description>
+          <Options moHideChildren="1" />
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_1
+[DISABLE]
+-- MASTER_DI_1</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000020391</ID>
+              <Description>"Auto"</Description>
+              <Options moHideChildren="1" />
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_2
+[DISABLE]
+-- MASTER_DI_2</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020392</ID>
+                  <Description>"Delay"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>DelayAuto</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020394</ID>
+              <Description>"Setup Súng"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_4
+[DISABLE]
+-- MASTER_DI_4</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020397</ID>
+              <Description>"Lọc Team"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_5
+[DISABLE]
+-- MASTER_DI_5</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020398</ID>
+              <Description>"Thông Tin (Info)"</Description>
+              <Options moHideChildren="1" />
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+
+[DISABLE]
+
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020399</ID>
+                  <Description>"Thứ Tự"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThuTu</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020400</ID>
+                  <Description>"Tên"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>String</VariableType>
+                  <Length>90</Length>
+                  <Unicode>0</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020401</ID>
+                  <Description>"ID"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020402</ID>
+                  <Description>"Máu"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020403</ID>
+                  <Description>"X"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020404</ID>
+                  <Description>"Y"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020405</ID>
+                  <Description>"Z"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020406</ID>
+                  <Description>"Team"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Team Trắng
+1:Team Đỏ
+2:Team Xanh Lam
+3:Team Xanh Lá
+4:Team Vàng
+5:Team Cam
+6:Team Tím
+999:Team Trọng Tài
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>24</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020407</ID>
+                  <Description>"Skin"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Chọn Skin
+1:Panda
+2:Tề Thiên Đại Thánh
+3:Thỏ Mini
+4:Khủng Long
+5:Pha Lê
+6:George
+7:Anne
+8:Mặc Gia
+9:Dracula VI
+10:Tuần Lộc
+11:Thợ Săn Tuyết
+12:Vũ Cơ
+13:Mộ Dung
+14:Cảnh Sát Trưởng Joey
+15:Lucas
+16:Clarie
+17:Cao Bồi Rose
+18:Thuyền Trưởng Tiki
+19:Mary Ngọt Ngào
+20:Cẩm Y Vệ
+21:Tiểu Hoa
+22:Lilith
+23:Vô Song
+24:Diệp Tiểu Long
+25:Nhị Lang Thần
+26:Cá Nhỏ
+27:Misoso
+28:Mini-X
+29:Mini-T
+30:Hằng Nga
+31:Pháp Sư Bí Ngô
+32:Tiên Cá Shelley
+33:Christopher
+34:Popo
+35:Dodo
+36:Bobo
+37:Alice Bé Bỏng
+38:Thiên Bồng Nguyên Soái
+39:Angela
+40:Mini-Beast
+41:Lancelot
+42:Mecha Meow
+43:Samurai Senbei
+44:Meow Racer
+45:Xạ Thủ Li
+46:Xạ Thủ An
+47:King Yo Yo
+48:Mini-S
+49:Everest
+50:Joker
+51:Kana
+52:Optimus Prime
+53:Megatron
+54:Bánh Kem Dâu
+55:Chuột Phúc Lộc
+56:Chuột Như Ý
+57:Lão Bạch Gia
+58:Bumblebee
+59:Tiên Nhỏ Hoa Gió
+60:Sao Tinh Nghịch
+61:Báo Tuyết
+62:Ellie
+63:Ninja Ếch
+64:Starscream
+65:Hot Rod
+66:Galvatron
+67:Raul
+68:Lynn
+69:Uyển Thanh
+70:Twilight Sparkle
+71:Công Chúa Celestia
+72:Fluttershy
+73:Công Chúa Luna
+74:Grimlock
+75:Swoop
+76:Snarl
+77:Leonardo
+78:Thalia
+79:Uta
+80:Ngài Thỏ Lady
+81:Pinkie Pie
+82:Carol
+83:Jerry
+84:Squid
+85:Gấu Gigi
+86:Starlight Glimmer
+87:Rainbow Dash
+88:Công Chúa Cadence
+89:Audrey
+90:Predaking
+96:Superion
+102:Thần Đồng
+103:Lửa Quỷ
+104:Linh Diêu
+105:Ash - Cô Bé Quàng Khăn Đỏ
+106:Cool Mini
+107:Sói Nora
+108:Tiên Nữ Yaya
+109:Song - Hoàng Tử Rồng
+110:Roselle
+111:Mèo Mướp
+112:Hoa Cẩm Tú Cầu
+113:Bong Bóng
+115:Công Chúa Băng Giá
+116:Rory
+117:Óng Ánh
+118:Lọ Lem
+119:Công Chúa Tinh Linh (Phiên bản cũ)
+120:Scaly - Tiểu Long Nhân
+121:Meow Meow
+122:Thiên Nga Trắng Odette
+123:Cecil
+124:Jessie
+125:Xoay Nhanh
+126:Ultraman
+127:Thiên Nga Đen Odette
+128:Hoàng Tử Ếch
+130:Bạch Tuyết
+131:Hansel
+132:Gretel
+136:Howl
+132:Gretel
+138:Xuân Vũ
+139:Thanh Hạ
+140:Quả Mùa Thu
+141:Sắc Xanh
+142:Alice Bé Bỏng
+143:Maggi
+144:Snowy
+145:Hoàng Tử Amusement
+146:Blossoms
+147:Lightning
+148:Winter
+149:Rarity
+150:Táo 5 Củ (Táo Jack)
+151:Aladdin
+152:Pinocchio
+153:Tasha
+154:Amy
+155:Jessi
+156:Công Chúa Alysa
+158:Phù Thủy Ma Cà Rồng
+160:Jade
+161:Người Chơi Kèn Nita
+162:Tay Trống Nick
+164:Nineteen
+165:Teddy Ngọt Ngào
+166:Mộng Mơ
+167:Polly
+169:Bá Tước Bầu Trời
+171:Ca Nữ Vũ Hồn
+172:Yuer
+173:Tạ Tri Lễ
+174:Casper
+175:Olivia
+176:Yuna
+177:Andrew
+178:Đặc Vụ Sói Bạc
+179:Công Chúa Tinh Linh (Phiên bản mới)
+180:DragonSky
+181:Chuyên Gia Gà Tây
+182:Mứt Dâu Tây
+183:Thần Voi Thái Lan
+184:Nữ Hoàng Nhạc Điện Tử
+185:Thần hộ vệ
+186:Yun Shang
+187:Xiang Er
+188:Ting Huai
+189:Tiểu Long Sư
+190:Ong Mật
+191:Thẩm Nhất Huyền
+192:Yun Yan
+193:Tiên Kiếm
+194:Katrina
+195:Cô Gái Nhện
+196:Miranda
+197:Hoàng Đế
+198:Hổ Tâm Ngọc
+199:Hổ Tiếu Phong
+200:Nghệ Phi Lê
+201:Tyrinn
+202:Frost
+203:Tiên Nữ Nghề Thường
+204:Hiệp Viêm Long
+205:Nữ Hoàng Lễ Hội
+206:Bàn Đoá
+207:Cao Thủ Bóng Chày
+208:Mota
+209:Hoa Hoả
+210:Lấp Lánh
+211:Diễm Linh
+212:Đào Mộng Điệp
+213:Đội Trưởng Bóng Đá
+214:Shirley
+215:Chàng Trai Toả Nắng
+216:Hoa Hậu Thanh Lịch
+217:Sứ Giả Bóng Tối
+218:Nhật Bình Cách Tân
+219:Mặt Trăng Ác Mộng
+220:Griffith
+221:Lyco
+222:Nini Thức Tỉnh
+223:Kaka Thức Tỉnh
+224:Lục Lạc
+225:Correia
+226:Hình Thiên Hiệp
+227:Phong Ưng Hiệp
+228:Công Chúa Lola
+229:Mega
+230:Ỷ Mộng Linh Hồ 1
+231:Ỷ Mộng Linh Hồ 2
+232:Ỷ Mộng Linh Hồ 3
+233:Cô Gái Hoàng Hôn
+234:Trixie
+235:Cậu Bé áo Giáp
+236:Lumil
+237:Lucia
+238:Cô Bé Tí Hon
+239:Bé Long
+240:Đường Tam
+241:Tiểu Vũ
+242:Bỉ Bỉ Đông
+243:Oscar
+244:Mã Hồng Tuấn
+245:Ỷ La
+246:Đới Mộc Bạch
+247:Chu Trúc Thanh
+248:Ninh Vinh Vinh
+249:Cô Mèo Tuyết Trắng
+250:Thỏ Mây Hoa Nhung
+251:Mị Ảnh Rừng Mưa Thủy Khê
+252:Mai Cơ
+253:Thiên Chúa
+254:Theo Đuổi Ước Mơ
+255:Đại Bàng Bộ Lạc Kaka
+256:Thủ lĩnh bộ lạc Nini
+267:Khốc Nhạc Chủ Nghĩa
+268:Viễn Tưởng Giấc Hồng
+269:Hoàng Hôn Chạng Vạng Thủy Khê
+270:Tòm
+271:Nãi Du Điềm Chanh Hy Sắt
+272:Trì Đường Thịnh Hạ Hội Nha
+273:Di Hòa
+274:Hồng Tử
+275:Kalie
+276:Tuyết Quần
+277:Trúc Sênh
+278:Rồng Sao Trời Carper
+279:Thợ Săn Quỷ Dimon
+280:Olian
+281:Fifi
+282:Tally Trúc Đệm Tàn
+283:Tally Trúc Sớm Mai
+284:Hạt Dẻ
+285:Đặc vụ Lose
+286:Reina
+287:Maria
+288:Ellis
+289:Tinh Hải Streamer Noli
+290:Nebula Flash Dream Becco
+291:Tuyết Tròn Trịa
+292:Trúc Tung Toé
+293:Chúa Tể Hải Dương Canorus
+294:Chúa Tể Sao Ngân Bình Elias
+295:Đường Khả Hinh
+296:Đường Khả Dực
+297:Pelou
+298:Ronnas
+299:Soundwave
+300:Bài Hát Xoài Chín
+301:Tiêu Nguyên Nhi
+302:Nặc NaNa
+303:Lăng Vũ
+304:Rebecca
+305:King
+306:Ma Đằng Thánh Đạo - Fecillia
+307:Bí Cảnh Tinh Linh - Fecillia
+308:Valena
+309:Mark
+310:Aileen
+311:Elton
+312:Thanh Vận
+313:Grey
+314:Phantom.S
+315:Bò Bòo
+316:Hoa Vàng Jiki
+317:Nàng Tiên Nước Biếc
+318:Koala Gato
+319:Socola Xinh
+320:Khách Tiêu Dao
+321:Nipro
+322:Bofill
+323:Marina - Đại Mỹ Nhân Ngư
+324:Marina - Nhà Thám Hiểm Kì Bí
+325:Hein
+326:Harvey
+327:Grainne
+328:Big Mar
+329:Marlene
+330:Siêu nhân Xiaomi
+331:Angel
+332:Isaia
+333:Barricade
+334:Cozy Glow - Cô Gái Rực Rỡ
+335:Apple Bloom - Cô Gái Hoa Táo
+336:Cô Gái Rung Động
+337:Hoàng Tử Băng Lian
+338:Cậu Bé Mưa Lian
+339:Thanh Hoa
+340:Doris
+341:Dole
+342:Lambert
+343:Martini
+344:Tinh Thiên Thánh
+345:Nắng Hạ Mộng Nhiên
+346:Ngôi Sao Belinda
+347:Pani Lười Biếng
+348:Hello Kitty Lorna
+349:Cinnamoroll Nimo
+350:Garan
+351:Tenten
+352:Eden
+353:Thanos
+354:Trisno
+356:Yanrui - Phong Hồ
+355:Yanrui - Huyền Vũ
+357:Cynthia
+358:Skoll
+359:Scarleet
+360:Fiona Mùa hè
+361:Bonnie
+362:Quỷ Đỏ Yami
+363:Tinh Linh Băng Tuyết
+364:Tinh Linh Mùa Đông
+365:Amber Rose
+366:Valentine
+367:Goofy
+370:Hoa Mộc Lan - Mộng Nguyệt
+369:Hoa Mộc Lan - Xích Tiêu
+371:Janet
+372:Brest
+373:Seralina
+374:Sweetheart
+375:Lulu
+378:Skin (Bản Cập Nhật Sau)
+379:Đầu Bếp Meo Meo
+380:Skin (Bản Cập Nhật Sau)
+381:Omnia
+382:Công Chúa Băng Tuyết - Elena
+383:Công Chúa Băng Tuyết - Evelyn
+384:Skin (Bản Cập Nhật Sau)
+385:Skin (Bản Cập Nhật Sau)
+386:Skin (Bản Cập Nhật Sau)
+387:Skin (Bản Cập Nhật Sau)
+388:Skin (Bản Cập Nhật Sau)
+389:Long Du
+390:Lý Dao
+394:Skin (Bản Cập Nhật Sau)
+395:Skin (Bản Cập Nhật Sau)
+396:Skin (Bản Cập Nhật Sau)
+397:Skin (Bản Cập Nhật Sau)
+398:Skin (Bản Cập Nhật Sau)
+399:Skin (Bản Cập Nhật Sau)
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>C</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020408</ID>
+                  <Description>"Kill"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>ChayThongTin</Address>
+                  <Offsets>
+                    <Offset>28</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020410</ID>
+          <Description>"Bất Tử"</Description>
+          <Color>800000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_17
+[DISABLE]
+-- MASTER_DI_17</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020472</ID>
+          <Description>"Tăng Tốc Độ Game"</Description>
+          <Color>008000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_18
+[DISABLE]
+-- MASTER_DI_18</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020473</ID>
+          <Description>"Đánh Xuyên Tường"</Description>
+          <Options moHideChildren="1" />
+          <Color>FF0000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_19
+[DISABLE]
+-- MASTER_DI_19</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020476</ID>
+          <Description>"Tele Nhanh"</Description>
+          <Options moHideChildren="1" />
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_20
+[DISABLE]
+-- MASTER_DI_20</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000020477</ID>
+              <Description>"Kích Hoạt"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>kichhoattelecham</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020478</ID>
+              <Description>"Delay"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>delaytelecham</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020479</ID>
+              <Description>"X"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>0000FF</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>xdoithutelecham</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020480</ID>
+              <Description>"Y"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>0000FF</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ydoithutelecham</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020481</ID>
+              <Description>"Z"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>0000FF</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>zdoithutelecham</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020482</ID>
+              <Description>"Khu Vực Muốn Đến"</Description>
+              <DropDownList DisplayValueAsItem="1">0:Đảo Cát
+1:Bãi Cỏ
+2:Sa Mạc
+3:Rừng
+4:Vách Đá
+5:Đầm Lầy
+6:Rừng cây lá kim
+7:Rừng rậm / Rừng Đỏ
+8:Băng nguyên
+18:Sông
+19:Bờ Biển
+23:Bồn địa / Rừng Đảo
+24:Gần |Bồn địa / Rừng Đảo
+25:Bồn địa / Rừng Đảo "tre xanh hơn"
+26:Cây Đảo Với Cây thường
+39:Rừng mưa
+40:Đồng bằng nổi
+42:Đường Vào Chỗ Boss Núi Lửa
+46:Chỗ Boss Núi Lửa
+49:Biển Cả
+52:Gần Đảo Thuyền
+53:Đảo Thuyền
+55:Đảo Hải Tặc Trade
+57:Chỗ Đánh Boss Tuyết
+59:Sắp Đến Boss Tuyết
+61:Dưới Boss Tuyết
+62:Gần Đến Chỗ Boss Tuyết
+</DropDownList>
+              <VariableType>4 Bytes</VariableType>
+              <Address>khuvucmuonden</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020483</ID>
+              <Description>"Khu Vực Đang Đứng"</Description>
+              <DropDownList DisplayValueAsItem="1">0:Đảo Cát
+1:Bãi Cỏ
+2:Sa Mạc
+3:Rừng
+4:Vách Đá
+5:Đầm Lầy
+6:Rừng cây lá kim
+7:Rừng rậm / Rừng Đỏ
+8:Băng nguyên
+18:Sông
+19:Bờ Biển
+23:Bồn địa / Rừng Đảo
+24:Gần |Bồn địa / Rừng Đảo
+25:Bồn địa / Rừng Đảo "tre xanh hơn"
+26:Cây Đảo Với Cây thường
+39:Rừng mưa
+40:Đồng bằng nổi
+42:Đường Vào Chỗ Boss Núi Lửa
+46:Chỗ Boss Núi Lửa
+49:Biển Cả
+52:Gần Đảo Thuyền
+53:Đảo Thuyền
+55:Đảo Hải Tặc Trade
+57:Chỗ Đánh Boss Tuyết
+59:Sắp Đến Boss Tuyết
+61:Dưới Boss Tuyết
+62:Gần Đến Chỗ Boss Tuyết
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>khuvucdangdung</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020484</ID>
+              <Description>"Đi Bộ Trên Không"</Description>
+              <Color>008000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_28
+[DISABLE]
+-- MASTER_DI_28</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020485</ID>
+          <Description>"Bắn Xuyên Tường (Room+Cloud)"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_29
+[DISABLE]
+-- MASTER_DI_29</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000020486</ID>
+              <Description>""</Description>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_30
+[DISABLE]
+-- MASTER_DI_30</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020487</ID>
+              <Description>"Đánh Xuyên Tường"</Description>
+              <Options moHideChildren="1" />
+              <Color>FF0000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_31
+[DISABLE]
+-- MASTER_DI_31</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020488</ID>
+              <Description>"Đào Xa"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_32
+[DISABLE]
+-- MASTER_DI_32</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020508</ID>
+          <Description>"Setup Súng"</Description>
+          <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_33
+[DISABLE]
+-- MASTER_DI_33</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020565</ID>
+          <Description>"Magic Bullet Auto Random ID (Cloud+Room)"</Description>
+          <Options moHideChildren="1" />
+          <Color>0000FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_34
+[DISABLE]
+-- MASTER_DI_34</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000020566</ID>
+              <Description>"Active Random ID 1"</Description>
+              <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_35
+[DISABLE]
+-- MASTER_DI_35</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020567</ID>
+              <Description>"Active Random ID 2"</Description>
+              <Options moHideChildren="1" />
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_36
+[DISABLE]
+-- MASTER_DI_36</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020574</ID>
+                  <Description>"Delay"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>DELAY</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020571</ID>
+              <Description>"ESP+Traces Hack"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:OFF
+1:ON
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>esphack</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020572</ID>
+                  <Description>"Size"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>thongsoline+4</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020573</ID>
+                  <Description>"Độ Cao"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>thongsoline+8</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020582</ID>
+              <Description>"Magic Bullet Di Chuyển Được"</Description>
+              <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_41
+[DISABLE]
+-- MASTER_DI_41</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020583</ID>
+                  <Description>"Bồi Thêm Đạn Khi Dính"</Description>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_42
+[DISABLE]
+-- MASTER_DI_42</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020584</ID>
+                  <Description>"Bồi Thêm Đạn Khi Dính"</Description>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_43
+[DISABLE]
+-- MASTER_DI_43</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020585</ID>
+                  <Description>"Bồi Thêm Đạn Khi Head Shot"</Description>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_44
+[DISABLE]
+-- MASTER_DI_44</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020586</ID>
+                  <Description>"Giảm Thanh"</Description>
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_45
+[DISABLE]
+-- MASTER_DI_45</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020579</ID>
+                  <Description>"Tăng Tốc Chạy"</Description>
+                  <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_46
+[DISABLE]
+-- MASTER_DI_46</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2000020580</ID>
+                      <Description>"Tốc độ chạy"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>000000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                      <Offsets>
+                        <Offset>D0</Offset>
+                        <Offset>56C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2000020581</ID>
+                      <Description>"Tốc độ đi bộ"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>000000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                      <Offsets>
+                        <Offset>CC</Offset>
+                        <Offset>56C</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020595</ID>
+              <Description>"Lọc Team"</Description>
+              <Color>000080</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_49
+[DISABLE]
+-- MASTER_DI_49</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000020599</ID>
+              <Description>"Info Người Chơi"</Description>
+              <Options moHideChildren="1" />
+              <Color>000000</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000020600</ID>
+                  <Description>"Tên"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>String</VariableType>
+                  <Length>300</Length>
+                  <Unicode>0</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020601</ID>
+                  <Description>"Team"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Không Có Đội
+1:Đội Đỏ
+2:Đội Xanh Lam
+3:Đội Xanh Lá
+4:Đội Vàng
+5:Đội Cam
+6:Đội Tím
+999:Đội Trọng Tài
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>24</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020602</ID>
+                  <Description>"ID"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020603</ID>
+                  <Description>"HP"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020604</ID>
+                  <Description>"X"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020605</ID>
+                  <Description>"Y"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020606</ID>
+                  <Description>"Z"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infoauto</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020607</ID>
+                  <Description>"Tên 2"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>String</VariableType>
+                  <Length>300</Length>
+                  <Unicode>0</Unicode>
+                  <CodePage>0</CodePage>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>38</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020608</ID>
+                  <Description>"Team 2"</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Không Có Đội
+1:Đội Đỏ
+2:Đội Xanh Lam
+3:Đội Xanh Lá
+4:Đội Vàng
+5:Đội Cam
+6:Đội Tím
+999:Đội Trọng Tài
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>24</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020609</ID>
+                  <Description>"ID 2"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020610</ID>
+                  <Description>"HP 2"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020611</ID>
+                  <Description>"X 2"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020612</ID>
+                  <Description>"Y 2"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000020613</ID>
+                  <Description>"Z 2"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>infovipchihehe</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000020786</ID>
+          <Description>"Đánh Xa "</Description>
+          <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_65
+[DISABLE]
+-- MASTER_DI_65</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021158</ID>
+          <Description>"Tự Động Di Chuyển Đến Vị Trí Người Chơi"</Description>
+          <Options moHideChildren="1" />
+          <Color>0000FF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_66
+[DISABLE]
+-- MASTER_DI_66</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000021159</ID>
+              <Description>"ID Người Chơi Ghim"</Description>
+              <Options moAlwaysHideChildren="1" />
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>AutoSetID</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000021160</ID>
+                  <Description>"Set X Target                          (Check)"</Description>
+                  <Options moAlwaysHideChildren="1" />
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>AutoSetX</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2000021161</ID>
+                      <Description>"Check X               (Check)"</Description>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <Color>000000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                      <Offsets>
+                        <Offset>DC</Offset>
+                        <Offset>270</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021162</ID>
+                  <Description>"Set Y Target                          (Check)"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>AutoSetY</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021163</ID>
+                  <Description>"Set Z Target                          (Check)"</Description>
+                  <Options moAlwaysHideChildren="1" />
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>AutoSetZ</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2000021164</ID>
+                      <Description>"Check Z               (Check)"</Description>
+                      <ShowAsSigned>1</ShowAsSigned>
+                      <Color>000000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                      <Offsets>
+                        <Offset>E4</Offset>
+                        <Offset>270</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021165</ID>
+                  <Description>"Vật Chủ Hiện Tại               (Check)"</Description>
+                  <ShowAsSigned>1</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021166</ID>
+              <Description>"Name Tag"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>90</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>NameTag</Address>
+              <Offsets>
+                <Offset>38</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021167</ID>
+              <Description>"Lọc Team"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_75
+[DISABLE]
+-- MASTER_DI_75</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021168</ID>
+              <Description>"Tùy Chọn Tốc Độ"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>Float</VariableType>
+              <Address>Tuy_Chon_Speed</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021169</ID>
+              <Description>"Tùy Chọn"</Description>
+              <Options moManualExpandCollapse="1" />
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Tự Động Dí Mục Tiêu
+1:Tự Động Đánh Mục Tiêu
+2:Tự Động Đánh Mục Tiêu Tầm Gần
+</DropDownList>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>Tuy_Chon_Auto</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000021170</ID>
+                  <Description>"Bật/Tắt"</Description>
+                  <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_78
+[DISABLE]
+-- MASTER_DI_78</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols />
+</CheatTable>
