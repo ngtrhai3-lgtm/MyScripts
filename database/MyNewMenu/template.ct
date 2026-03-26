@@ -1,0 +1,108 @@
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1337201129</ID>
+      <Description>"A ┆ Full Màn Hình ۶ৎ"</Description>
+      <Options moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+      <Color>000000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_0
+[DISABLE]
+-- MASTER_DI_0</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1337212001</ID>
+      <Description>"B ┆ Mở Tiến Trình ۶ৎ"</Description>
+      <Color>000000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_1
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1337197153</ID>
+      <Description>"D ┆ Tắt Tiến Trình ۶ৎ"</Description>
+      <Options moHideChildren="1" />
+      <Color>000000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>403173</ID>
+          <Description>"| Auto Tắt Mini World | "</Description>
+          <Options moHideChildren="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+
+[DISABLE]
+
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>403174</ID>
+              <Description>"Auto Tắt Mini World"</Description>
+              <Options moHideChildren="1" />
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_4
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>400429</ID>
+              <Description>"Auto End Task Ẩn Mw"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_5
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>SetRotationMode</Name>
+      <Address>9F0000</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>SetIDItem</Name>
+      <Address>9F0010</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>SetTypeFire</Name>
+      <Address>9F0020</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>StringGiveFireWork</Name>
+      <Address>9F0030</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>StringGiveFireWork1</Name>
+      <Address>9F0130</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>ValueFloat</Name>
+      <Address>9F0230</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>FlyChung</Name>
+      <Address>A10000</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+</CheatTable>
