@@ -1,0 +1,638 @@
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>2000021339</ID>
+      <Description>"D ====Ghost===="</Description>
+      <Options moHideChildren="1" />
+      <Color>808000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+
+[DISABLE]
+
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2000021340</ID>
+          <Description>"Aura 1"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_1
+[DISABLE]
+-- MASTER_DI_1</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000021341</ID>
+              <Description>"Về Ban Đầu"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_2
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021342</ID>
+          <Description>"Hitbox"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_3
+[DISABLE]
+-- MASTER_DI_3</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000021343</ID>
+              <Description>"Loại"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Về Ban Đầu
+1:Tuỳ Trỉnh
+2:Legit
+3:Blatant
+4:Setup PVP Tay (Fake Góc PE)
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>TuyTrinhHitbox</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021344</ID>
+              <Description>"Chiều Ngang"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>HitboxNgang</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021345</ID>
+              <Description>"Chiều Dọc"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>4 Bytes</VariableType>
+              <Address>HitboxDoc</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021346</ID>
+          <Description>"PVP [Legit]"</Description>
+          <Options moDeactivateChildrenAsWell="1" />
+          <Color>800080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_7
+[DISABLE]
+-- MASTER_DI_7</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000021347</ID>
+              <Description>"4"</Description>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_8
+[DISABLE]
+-- MASTER_DI_8</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000021348</ID>
+                  <Description>"3"</Description>
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_9
+[DISABLE]
+-- MASTER_DI_9</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021349</ID>
+              <Description>"2"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_10
+[DISABLE]
+-- MASTER_DI_10</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000021350</ID>
+                  <Description>"12"</Description>
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_11
+[DISABLE]
+-- MASTER_DI_11</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021351</ID>
+              <Description>"blab"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Không Bật Tâm Súng Tỉa
+1:Bật Tâm Súng Tỉa
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+              <Offsets>
+                <Offset>6C</Offset>
+                <Offset>0</Offset>
+                <Offset>5B8</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2000021352</ID>
+              <Description>"bla bla"</Description>
+              <Options moHideChildren="1" />
+              <Color>0000FF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_13
+[DISABLE]
+-- MASTER_DI_13</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2000021353</ID>
+                  <Description>"ID Gun"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021354</ID>
+                  <Description>"Chế Độ Bắn"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Súng Lục
+1:Súng Tiểu Liên
+2:Súng Nhắm
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>84</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021355</ID>
+                  <Description>"Độ Lớn Của Tâm"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">25:Tâm Thường
+0:Thu Nhỏ Tâm
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021356</ID>
+                  <Description>"Đạn Tăng Số Lượng"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>0C</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021357</ID>
+                  <Description>"Độ Tỏa Tâm"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Không Tỏa Tâm
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>50</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021358</ID>
+                  <Description>"Tốc Độ Hồi Tâm"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Hồi Tâm Nhanh
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>58</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021359</ID>
+                  <Description>"Trọng Lượng"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Trọng Lượng Nhẹ
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>7C</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021360</ID>
+                  <Description>"Dame Súng (Host)"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>44</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021361</ID>
+                  <Description>"Giới Hạn Đạn"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">2147000000:Max Giới Hạn
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>48</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021362</ID>
+                  <Description>"Không Giật"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Không Giật
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>54</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021363</ID>
+                  <Description>"Bật Tâm Ngắm "</Description>
+                  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Không Tâm
+40:Có Tâm
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Byte</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>68</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021364</ID>
+                  <Description>"Tâm Bắn Chính Xác"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021365</ID>
+                  <Description>"Liên Thanh (Host)"</Description>
+                  <DropDownList DisplayValueAsItem="1">0:Liên Thanh V1
+99:Lien Thanh
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>46</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021366</ID>
+                  <Description>"Liên Thanh (Room)"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">1:Liên Thanh V2
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>84</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021367</ID>
+                  <Description>"Tâm Nhắm"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Không Hiển Thị -(((
+1:Hiển Thị Tâm :D
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>6C</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021368</ID>
+                  <Description>"Nạp Đạn Nhanh"</Description>
+                  <DropDownList DisplayValueAsItem="1">1750:Bình Thường
+0:Nạp Đạn Nhanh
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>70</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021369</ID>
+                  <Description>"Không Cần Đạn"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Vô Hạn Đạn
+1:Cần Đạn
+2:Không Cần Đạn
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>80</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021370</ID>
+                  <Description>"Thay Đổi Loại Đạn (Host)"</Description>
+                  <DropDownList DisplayValueAsItem="1">12285:Đạn Tên Lửa
+12292:Đạn Cung Năng Lượng
+12280:Đạn Bom Nhỏ
+15509:Đạn Lazer Đỏ
+15510:Đạn Lazer Băng
+12299:Đạn Tương Lai
+15512:Đạn Thần Chưởng
+15522:Đạn Giáo 1
+15523:Đạn Giáo 2
+15524:Đạn Giáo 3
+15531:Đạn Giáo 4
+15530:Đạn Năng Lượng
+12300:Đạn Sao Chổi
+12308:Đạn Kì Bí
+15052:Đạn Lửa
+15067:Đạn Độc Tố
+15074:Đạn Xác Ướp
+15075:Đạn Nước
+15003:Đạn Thường
+15073:Đạn Cát
+11638:Đạn Gây Choáng
+11630:Đạn Phun Độc
+11631:Đạn Kháng Độc
+11637:Đạn Hóa Lỏng
+12836:Pháo Hoa
+15505:Tảng Đá Bí Ẩn
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>88</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021371</ID>
+                  <Description>"Tư Thế Không Bắn"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">101124:Hiển thị (Bắn tỉa)
+101118:Hiển thị (SMG)
+101126:Hiển thị (McGun)
+101117:Show (Cao bồi)
+0:Mở tay
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>90</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021372</ID>
+                  <Description>"Tư Thế Bắn"</Description>
+                  <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">101109:Hiển thị (SMG)
+101125:Hiển thị (Bắn tỉa)
+101127:Hiển thị (McGun)
+101108:Hiển thị (Cao bồi)
+0:Mở tay
+</DropDownList>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>000000</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>libSandboxEngine.g_pPlayerCtrl</Address>
+                  <Offsets>
+                    <Offset>94</Offset>
+                    <Offset>0</Offset>
+                    <Offset>5B8</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021373</ID>
+                  <Description>"Giảm Thanh"</Description>
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_34
+[DISABLE]
+-- MASTER_DI_34</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2000021374</ID>
+                  <Description>"Hack Đập Súng"</Description>
+                  <Color>000000</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_35
+[DISABLE]
+-- MASTER_DI_35</AssemblerScript>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2000021375</ID>
+                      <Description>"Đập Súng"</Description>
+                      <DropDownList DescriptionOnly="1" DisplayValueAsItem="1">0:Đập Súng
+8:Bình Thường
+</DropDownList>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>000000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>dapsung</Address>
+                      <Offsets>
+                        <Offset>88</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021376</ID>
+          <Description>"marcro"</Description>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_37
+[DISABLE]
+-- MASTER_DI_37</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021377</ID>
+          <Description>"hit range"</Description>
+          <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_38
+[DISABLE]
+-- MASTER_DI_38</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2000021378</ID>
+              <Description>"Kịch Bản Tự Động"</Description>
+              <Color>000000</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_39
+[DISABLE]
+-- MASTER_DI_39</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021379</ID>
+          <Description>"range"</Description>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_40
+[DISABLE]
+-- MASTER_DI_40</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021380</ID>
+          <Description>"speed"</Description>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_41
+[DISABLE]
+-- MASTER_DI_41</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021381</ID>
+          <Description>"velo"</Description>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_42
+[DISABLE]
+-- MASTER_DI_42</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021382</ID>
+          <Description>"Auto Hồi Sinh"</Description>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_43
+[DISABLE]
+-- MASTER_DI_43</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2000021383</ID>
+          <Description>"Ăn Nhanh"</Description>
+          <Options moHideChildren="1" />
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+-- MASTER_EN_44
+[DISABLE]
+-- MASTER_DI_44</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols />
+</CheatTable>
