@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CheatTable CheatEngineTableVersion="46">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"2 en va dis"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript><![CDATA[{$lua}
+[ENABLE]
+--LINK_EN:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/2_en_va_dis_(en_0).lua
+[DISABLE]
+--LINK_DIS:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/2_en_va_dis_(dis_0).lua]]></AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>1</ID>
+      <Description>"en"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript><![CDATA[{$lua}
+[ENABLE]
+--LINK_EN:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/en_(en_1).lua
+[DISABLE]]]></AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"dis"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript><![CDATA[{$lua}
+[ENABLE]
+--LINK_EN:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/dis_(dis_6).lua
+[DISABLE]
+--LINK_DIS:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/dis_(dis_6).lua]]></AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2</ID>
+      <Description>"mmbpoint"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>mmb</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"reg"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript><![CDATA[{$lua}
+[ENABLE]
+--LINK_EN:https://raw.githubusercontent.com/ngtrhai3-lgtm/MyScripts/main/database/TheBeta/scripts/reg_(en_3).lua
+[DISABLE]]]></AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"string"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>String</VariableType>
+          <Length>100</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>StringAgain</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"tester"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>Tester</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
